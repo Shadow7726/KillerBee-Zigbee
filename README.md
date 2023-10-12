@@ -47,6 +47,36 @@ sudo python3 setup.py install
 3. Run `sudo ./install-udev-rules` to set up udev rules for the USB dongle.
 4. Run `kb_install_firmware` to install the appropriate firmware for your device. Follow the prompts to complete the installation.
 
+Here are the complete steps for flashing the firmware on a wireless device using KillerBee tools:
+
+1. Connect your compatible USB wireless dongle (such as the Alpha AWUS036H) to your computer.
+
+2. Open a terminal and navigate to the KillerBee tools directory:
+
+```bash
+cd path/to/killerbee/tools
+```
+
+3. Set up the udev rules for the dongle:
+
+```bash 
+sudo ./install-udev-rules
+```
+
+4. Flash the appropriate firmware for your device:
+
+```bash
+sudo ./kb_install_firmware
+```
+
+5. Follow the prompts to select your device and firmware. For the AWUS036H, you would likely select `1` for the RTL8187L chipset.
+
+6. When prompted, press `I` to confirm flashing the firmware. 
+
+7. Once complete, disconnect and reconnect the device for the new firmware to take effect.
+
+8. Your wireless dongle should now be ready with the appropriate firmware for using KillerBee and other wireless tools.
+
 ## Verify the Installation
 
 To verify that KillerBee is installed correctly, run the following command in the terminal:
