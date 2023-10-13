@@ -9,8 +9,8 @@
 KillerBee is a powerful toolkit designed for sniffing and attacking ZigBee networks. It is crucial to use this tool responsibly and legally, ensuring you have proper authorization before testing any network, even if it's your own. This guide provides instructions on how to install the KillerBee firmware and use it for ethical penetration testing.
 
 ## Reference 
-[Understanding Zigbee and Wireless Mesh Networking](https://www.blackhillsinfosec.com/understanding-zigbee-and-wireless-mesh-networking/)
-[Apimote Website](http://apimote.com/)
+- [Understanding Zigbee and Wireless Mesh Networking](https://www.blackhillsinfosec.com/understanding-zigbee-and-wireless-mesh-networking/)
+- [Apimote Website](http://apimote.com/)
 
 
 ## Table of Contents
