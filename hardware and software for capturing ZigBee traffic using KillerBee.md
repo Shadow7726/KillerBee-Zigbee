@@ -1,3 +1,6 @@
+<p align="center">
+  <img  width="180" src="ghost.png" />
+</p>
 
 ---
 
