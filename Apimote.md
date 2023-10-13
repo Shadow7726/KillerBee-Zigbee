@@ -7,7 +7,7 @@
 
 - Apimote Zigbee Sniffer/Analyzer (USB dongle)
 <p align="center">
-  <img  width="180" src="apimote-v4b-front.jpg" />
+  <img  width="600" src="apimote-v4b-front.jpg" />
 </p>
 
 
