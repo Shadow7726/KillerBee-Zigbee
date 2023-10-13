@@ -6,7 +6,10 @@
 ### Hardware Required:
 
 - Apimote Zigbee Sniffer/Analyzer (USB dongle)
-<img src="[https://example.com/zigbee-sniffer.jpg](https://www.cs.dartmouth.edu/~sergey/apimote/apimote-v4b-front.jpg)" alt="Apimote">
+<p align="center">
+  <img  width="180" src="apimote-v4b-front.jpg" />
+</p>
+
 
 
 - Attify Zigbee framework (compatible with Apimote dongle)
