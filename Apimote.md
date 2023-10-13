@@ -14,7 +14,25 @@
   <img  width="600" src="apimote-v4b-front.jpg" />
 </p>
 
+Here is the complete hardware identification for the Apimote Zigbee sniffer :
 
+| Hardware | Details | 
+|-|-|  
+| Name | Apimote Zigbee Sniffer/Analyzer |
+| Type | USB Dongle |
+| Chipset | Texas Instruments CC2531 | 
+| RF Protocol | 802.15.4 (Zigbee) |
+| Frequency | 2.4 GHz |
+| Data Rates | 250 kbps |
+| Sensitivity | -97 dBm | 
+| TX Power | +4.5 dBm |
+| Antenna | PCB Antenna |
+| Interface | USB 2.0 |
+| Software Support | Wireshark, Attify Zigbee Framework |
+| OS Support | Linux, Windows, macOS |
+| Power | USB Bus Powered |
+| Dimensions | 19 x 14 x 6 mm |
+| Certifications | CE, FCC, RoHS |
 
 - Attify Zigbee framework (compatible with Apimote dongle)
 
