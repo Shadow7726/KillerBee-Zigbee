@@ -1,3 +1,9 @@
+<p align="center">
+  <img  width="180" src="ghost.png" />
+</p>
+
+--- 
+
 ## Here are the compatible USB dongles and hardware options for the Attify Zigbee Framework (AZF)
 
 | Hardware | Description | Buy |
