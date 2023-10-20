@@ -108,6 +108,28 @@ Refer to device datasheets and avrdude documentation for low-level details.
    - **Expert Info** will highlight errors, security issues, etc.
 
 ---
+| Tool Name            | Description                                      | Example Usage                                              |
+|----------------------|--------------------------------------------------|------------------------------------------------------------|
+| **zbid**             | View compatible interfaces for KillerBee         | `zbid`                                                     |
+| **zbwireshark**      | Capture packets to Wireshark in real-time        | `zbwireshark -i wlan0`                                     |
+| **zbdump**           | Capture 802.15.4 packets like tcpdump             | `zbdump -i wlan0 -c 11 -w capture.pcap`                     |
+| **zbreplay**         | Replay captured packets                          | `zbreplay -i wlan0 -r capture.pcap`                         |
+| **zbstumbler**       | Discover Zigbee networks                         | `zbstumbler -i wlan0 -c 11`                                |
+| **zbpanidconflictflood** | Attack to destroy Zigbee networks             | `zbpanidconflictflood -i wlan0 -c 11`                       |
+| **zborphannotify**   | Spoof orphan notification to coordinator         | `zborphannotify -i wlan0 -s 1122334455667788 -d 1122334455667789` |
+| **zbrealign**        | Spoof realignment frame to device                | `zbrealign -i wlan0`                                       |
+| **zbfakebeacon**     | Spoof beacon frames                              | `zbfakebeacon -i wlan0 -c 11`                              |
+| **zbopenear**        | Capture on multiple channels                     | `zbopenear -i wlan0 -c 11`                                 |
+| **zbassocflood**     | Flood associations to crash device               | `zbassocflood -i wlan0 -c 11`                              |
+| **zbconvert**        | Convert between pcap and SNA                      | `zbconvert -i capture.pcap -o capture.sna`                 |
+| **zbdsniff**         | Sniff network keys from traffic                   | `zbdsniff -i wlan0`                                        |
+| **zbfind**           | Locate transmitter via RSSI                      | `zbfind -i wlan0 -t transmitter_mac_address`              |
+| **zbgoodfind**       | Find keys in memory dumps                         | `zbgoodfind -b ram.bin -k key`                            |
+| **zbwardrive**       | Automated network discovery                       | `zbwardrive -i wlan0 -c 11`                                |
+| **zbscapy**          | Scapy shell through KillerBee                    | `zbscapy`                                                 |
+| **kbbootloader**     | Put device into bootloader mode                   | `kbbootloader -i wlan0 --target`                          |
+
+---
 
 By following these steps, you can capture and analyze ZigBee traffic using KillerBee and Wireshark, providing a comprehensive view of the captured packets.
 
