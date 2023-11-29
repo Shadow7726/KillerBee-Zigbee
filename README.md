@@ -13,6 +13,7 @@ KillerBee is a powerful toolkit designed for sniffing and attacking ZigBee netwo
 - [Apimote Website](http://apimote.com/)
 - [KillerBee framework usage Apimote](https://yaseng.org/killerbee-2.html)
 - [KillerBee security overview](https://courses.csail.mit.edu/6.857/2017/project/17.pdf)
+- [Enhancing Zigbee Security for Industrial Implementation](http://kth.diva-portal.org/smash/get/diva2:1460818/FULLTEXT01.pdf)
 
 
 ## Table of Contents
