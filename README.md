@@ -45,6 +45,7 @@ Install KillerBee using pip, the Python package manager. Run the following comma
 
 ```bash
 sudo pip3 install pyserial pyusb
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
 git clone https://github.com/riverloopsec/killerbee.git
 cd killerbee
 sudo python3 setup.py install
