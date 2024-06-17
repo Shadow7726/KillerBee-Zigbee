@@ -33,7 +33,7 @@ KillerBee is a powerful toolkit designed for sniffing and attacking ZigBee netwo
 ## Installing Dependencies
 
 Before installing KillerBee, ensure you have the necessary dependencies. Open a terminal and run:
-- Use Python version below or = '3.7' or '3.6.9'
+- Use Python version below or = `3.7` or `3.6.9`
 
 ```bash
 sudo apt-get update
